@@ -7,5 +7,21 @@
     <title>TS | Colcolo Tasse</title>
     <script src="./js/script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <h1>IncCool8.app</h1>
+    <h3>Calcolatore di Tasse e Reddito Netto</h3>
+    <input type="text" name="reddito" />
+    <select name="categorySelector">
+      <option value="0">Scegli Cat. Fiscale</option>
+      <option value="1">Forfettario</option>
+      <option value="2">Agente monomandatario</option>
+      <option value="3">Agente plutimandatario</option>
+    </select>
+    <input type="submit" value="Calcola" />
+    <hr />
+    <div class="container">
+      <ul id="detailList"></ul>
+    </div>
+    <button id="resetBtn">nuovo calcolo</button>
+  </body>
 </html>
